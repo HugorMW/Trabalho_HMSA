@@ -1,0 +1,24 @@
+html{
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: linear-gradient(#141e30, #243b55);  /* Linear-gradient: para dar cor ao site de forma linear (cima para baixo) */
+}
+
+.container{
+    position: absolute;
+    top: 50%;  /*  Deslocou o inicio da div para abaixo da metade do site  */
+    left: 50%; /*  Deslocou o inicio da div para depois da metade do site  */
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+/*  Levando em consideração o seu tamanho a div será movida   */
+    box-sizing: border-box;
+    background: rgb(0,0,0,0.5);
+    box-shadow: 0 15px 25px rgb(0,0,0,0.8);
+
+}
